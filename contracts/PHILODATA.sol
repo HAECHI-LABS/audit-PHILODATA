@@ -15,7 +15,7 @@ contract PHILODATA is
     string constant private _name = "PHILODATA";
     string constant private _symbol = "PICO";
     uint8 constant private _decimals = 18;
-    uint256 constant private _initial_supply = 3_000_000_000;
+    uint256 constant private _initial_supply = 5_000_000_000;
 
     constructor() Ownable() {
         _mint(msg.sender, _initial_supply * (10**uint256(_decimals)));
